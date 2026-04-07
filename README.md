@@ -1,5 +1,7 @@
 # 圓桌武士 — Knights of the Round Table
 
+[English](#knights-of-the-round-table) | 中文
+
 ![Knights of the Round Table](knights-round-table.png)
 
 **運籌帷幄之中，決戰千里之外。**
@@ -97,6 +99,8 @@
 ---
 
 # Knights of the Round Table
+
+[中文](#圓桌武士--knights-of-the-round-table) | English
 
 ![Knights of the Round Table](knights-round-table.png)
 
