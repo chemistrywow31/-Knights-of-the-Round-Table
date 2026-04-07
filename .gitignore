@@ -1,0 +1,6 @@
+# Personal data — user-specific, not part of team structure
+profile/
+memory/
+
+# Session work logs — contain user conversation records
+.worklog/
