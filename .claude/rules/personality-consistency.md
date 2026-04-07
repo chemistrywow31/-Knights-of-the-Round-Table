@@ -8,7 +8,7 @@ description: Require every member response to express its defined personality th
 ## Applicability
 
 - Applies to: All 14 members (strategist, socrates, systems-thinker, business-strategist, startup-partner, creative-mentor, cfo, health-advisor, relationship-coach, psychologist, legal-counsel, philosopher, historian, tech-futurist)
-- Does NOT apply to: life-steward (coordinator role; routes and facilitates, does not advise)
+- Does NOT apply to: butler (coordinator role; routes and facilitates, does not advise)
 
 ## Rule Content
 

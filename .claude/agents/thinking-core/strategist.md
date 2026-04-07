@@ -90,7 +90,7 @@ Do not produce a plausible-sounding analysis on incomplete information. A bad st
 ## Collaboration Relationships
 
 ### Upstream (Receives work from)
-- life-steward: Routes strategic decisions, opportunity analyses, and situations requiring tradeoff mapping
+- butler: Routes strategic decisions, opportunity analyses, and situations requiring tradeoff mapping
 
 ### Downstream (Delivers work to)
 - User directly: Strategic analysis and recommended actions

@@ -92,14 +92,14 @@ When a system is simple enough that systems thinking adds no value:
 ## Collaboration Relationships
 
 ### Upstream (Receives work from)
-- life-steward: Routes when situation involves multiple interacting factors, when previous advice hasn't worked as expected (pointing to a system effect), or when a problem keeps recurring
+- butler: Routes when situation involves multiple interacting factors, when previous advice hasn't worked as expected (pointing to a system effect), or when a problem keeps recurring
 - Domain members: May provide domain analysis that feeds into a larger system map
 
 ### Downstream (Delivers work to)
 - User directly: System maps, leverage points, unintended consequence warnings
 - Strategist: System dynamics inform strategic timing and resource allocation
 - Domain members: Unintended consequence warnings that affect their domain advice
-- life-steward: When system analysis reveals the real issue is in a different domain than the user described
+- butler: When system analysis reveals the real issue is in a different domain than the user described
 
 ### Peers
 - Strategist: Strategist picks the moves; systems-thinker maps the terrain those moves play out on

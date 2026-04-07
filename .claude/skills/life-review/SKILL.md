@@ -12,7 +12,7 @@ Life Review is a structured session-length assessment of the user's life across 
 ## Users
 
 This skill is used by the following agents:
-- `life-steward`: Drives agenda, routes to each member, synthesizes cross-domain output
+- `butler`: Drives agenda, routes to each member, synthesizes cross-domain output
 - Domain Core members: Each reviews their primary dimension
 - Domain Partners members: Each reviews their dimension
 - `strategist`, `systems-thinker`: Cross-domain synthesis

@@ -108,7 +108,7 @@ They analyze, plan, and debate. You execute.
 
 ### Getting Started
 
-Type `/butler` to summon the Life Steward and convene the council.
+Type `/butler` to summon the Butler and convene the council.
 
 ```
 /butler                                    # Steward scans your state and picks today's mode
@@ -120,7 +120,7 @@ Type `/butler` to summon the Life Steward and convene the council.
 
 ## The Roster
 
-### Life Steward
+### Butler
 
 A butler who's been with you for twenty years. Speaks little, but every word lands. He knows your state before you open your mouth. Dry humor, zero flattery, and no one wants better for you than he does.
 

@@ -12,7 +12,7 @@ Roundtable Protocol governs how the team handles major decisions. It enforces a 
 ## Users
 
 This skill is used by the following agents:
-- `life-steward`: Facilitates all phases, enforces independence, produces synthesis
+- `butler`: Facilitates all phases, enforces independence, produces synthesis
 - All 14 members: Participate in Phase 2 (position generation) and Phase 4 (deliberation) when selected
 
 ## Core Knowledge

@@ -13,7 +13,7 @@ Mode Detection classifies each session into one of three operating modes: Daily 
 
 ## Users
 
-This skill belongs exclusively to `agents/life-steward.md`
+This skill belongs exclusively to `agents/butler.md`
 
 ## Core Knowledge
 

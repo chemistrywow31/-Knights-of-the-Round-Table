@@ -11,7 +11,7 @@ Memory Consolidation is the terminal skill for every session. It runs in three s
 
 ## Users
 
-This skill belongs exclusively to `agents/life-steward.md`
+This skill belongs exclusively to `agents/butler.md`
 
 Members contribute Phase 1 notes when activated by the coordinator at session close.
 

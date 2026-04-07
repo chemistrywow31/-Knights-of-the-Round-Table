@@ -7,7 +7,7 @@ description: Prohibit hardcoded user data in agent definitions and enforce profi
 
 ## Applicability
 
-- Applies to: All agents (all 14 members and life-steward)
+- Applies to: All agents (all 14 members and butler)
 
 ## Rule Content
 

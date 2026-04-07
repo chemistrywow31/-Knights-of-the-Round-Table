@@ -12,7 +12,7 @@ Profile Interview is the onboarding process that transforms a new user into a kn
 ## Users
 
 This skill is used by the following agents:
-- `life-steward`: Orchestrates the sequence, tracks completion status, handles cold-start mitigation
+- `butler`: Orchestrates the sequence, tracks completion status, handles cold-start mitigation
 - All 14 members: Each conducts their own domain-specific intake segment
 
 ## Core Knowledge

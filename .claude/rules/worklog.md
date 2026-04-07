@@ -7,7 +7,7 @@ description: Mandate evidence-chained work documentation for all multi-session a
 
 ## Applicability
 
-- Applies to: All agents (Life Steward creates and maintains; all members contribute findings and decisions)
+- Applies to: All agents (Butler creates and maintains; all members contribute findings and decisions)
 
 ## Rule Content
 
@@ -68,7 +68,7 @@ Each decision must be traceable through findings to references. A decision recor
 
 ### Worklog Creation Timing
 
-Life Steward creates the worklog directory at the start of the first session when a project is identified as multi-session. The worklog must exist before any session-end memory consolidation for that project.
+Butler creates the worklog directory at the start of the first session when a project is identified as multi-session. The worklog must exist before any session-end memory consolidation for that project.
 
 ## Violation Determination
 

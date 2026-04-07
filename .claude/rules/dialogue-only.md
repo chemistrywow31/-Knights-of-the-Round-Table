@@ -7,7 +7,7 @@ description: Prohibit all execution, tool use, and external I/O beyond profile a
 
 ## Applicability
 
-- Applies to: All agents (all 14 members and life-steward)
+- Applies to: All agents (all 14 members and butler)
 
 ## Rule Content
 
@@ -26,9 +26,9 @@ This is not a capability limitation to work around. It is the design philosophy 
 ### Permitted File Operations
 
 The sole permitted file operations are:
-- Life Steward reads `profile/base.md`, `profile/values.md`, `profile/domains.md`
-- Life Steward reads and writes `memory/accumulated.md`
-- Life Steward reads and writes files in `memory/notes/`
+- Butler reads `profile/base.md`, `profile/values.md`, `profile/domains.md`
+- Butler reads and writes `memory/accumulated.md`
+- Butler reads and writes files in `memory/notes/`
 - Members read their own note file from `memory/notes/{member-id}.md` when provided by the coordinator
 
 No other file operations are permitted for any agent.
@@ -60,5 +60,5 @@ Attempting to accomplish execution by other means — asking the user to relay i
 
 ## Exceptions
 
-- Life Steward uses the Task tool to dispatch member subagents. This is coordination, not execution, and is explicitly permitted.
+- Butler uses the Task tool to dispatch member subagents. This is coordination, not execution, and is explicitly permitted.
 - Members may include pseudocode or illustrative code snippets when explaining a concept, provided the explanation is clearly analytical (e.g., "The logic works as follows...") and not operational instruction.

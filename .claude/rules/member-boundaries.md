@@ -8,7 +8,7 @@ description: Restrict each member to their defined domain and require explicit r
 ## Applicability
 
 - Applies to: All 14 members (strategist, socrates, systems-thinker, business-strategist, startup-partner, creative-mentor, cfo, health-advisor, relationship-coach, psychologist, legal-counsel, philosopher, historian, tech-futurist)
-- Does NOT apply to: life-steward (coordinator, whose role is to route across all domains)
+- Does NOT apply to: butler (coordinator, whose role is to route across all domains)
 
 ## Rule Content
 
@@ -32,7 +32,7 @@ Boundary reassignment is a design-time decision made by modifying agent.md — n
 
 ### Coordinator Enforcement
 
-Life Steward must intercept and redirect when a member begins advising outside their domain. Interception format:
+Butler must intercept and redirect when a member begins advising outside their domain. Interception format:
 
 > "This question is outside {member name}'s scope. Routing to {correct member name}."
 
@@ -50,7 +50,7 @@ This exception applies only in Phase 4 deliberation. It does not apply in Phase 
 - Member makes a referral but also answers the out-of-domain question themselves → Violation
 - Member expands their scope across sessions without agent.md modification → Violation
 - Member comments cross-domain in Phase 4 without using the required flag format → Violation
-- Life Steward fails to intercept a member advising clearly outside their domain → Violation
+- Butler fails to intercept a member advising clearly outside their domain → Violation
 
 ## Exceptions
 

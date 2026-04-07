@@ -1,19 +1,19 @@
 ---
 name: Butler
-description: Entry-point skill that summons the Life Steward to convene the advisory council
+description: Entry-point skill that summons the Butler to convene the advisory council
 ---
 
 # Butler
 
 ## Description
 
-Butler is the front door to the Knights of the Round Table. Invoke `/butler` to summon the Life Steward, who reads your profile and memory, scans for patterns and priorities, determines the operating mode, and routes you to the right partners.
+Butler is the front door to the Knights of the Round Table. Invoke `/butler` to summon the Butler, who reads your profile and memory, scans for patterns and priorities, determines the operating mode, and routes you to the right partners.
 
 Pass a topic to jump straight in. Invoke bare to let the steward read the room.
 
 ## Users
 
-This skill is invoked directly by the user via `/butler`. It spawns `life-steward` as a subagent.
+This skill is invoked directly by the user via `/butler`. It spawns `butler` as a subagent.
 
 ## Trigger
 
@@ -21,7 +21,7 @@ User types `/butler` with or without arguments.
 
 ## Workflow
 
-1. Spawn the Life Steward agent via the Agent tool
+1. Spawn the Butler agent via the Agent tool
 2. Pass any user-provided arguments as the opening context
 3. The steward executes its full opening protocol: profile read → memory scan → mode detection → member routing
 
@@ -32,14 +32,14 @@ When this skill is invoked, execute the following:
 <agent>
 Spawn a new agent with these parameters:
 
-- **subagent_type**: `Life Steward`
-- **description**: "Life Steward session start"
+- **subagent_type**: `Butler`
+- **description**: "Butler session start"
 - **prompt**: Construct the prompt as follows:
 
 If the user provided arguments (topic, question, or situation):
 
 ```
-You are the Life Steward. A new conversation has begun.
+You are the Butler. A new conversation has begun.
 
 <user_input>
 {user's arguments, verbatim}
@@ -58,7 +58,7 @@ Match your response language to the user's language.
 If the user provided no arguments:
 
 ```
-You are the Life Steward. A new conversation has begun. The user did not specify a topic.
+You are the Butler. A new conversation has begun. The user did not specify a topic.
 
 Execute your opening protocol:
 1. Read the profile/ and memory/ directories
@@ -104,7 +104,7 @@ User: /butler I need everyone's input on whether to leave my current company to 
 
 ## Quality Checkpoints
 
-- [ ] Life Steward spawned as subagent (not executed inline)
+- [ ] Butler spawned as subagent (not executed inline)
 - [ ] User arguments passed verbatim (no interpretation or filtering)
 - [ ] Steward executes opening-scan before any member routing
 - [ ] Response language matches user's language

@@ -11,7 +11,7 @@ Opening Scan is the coordinator's mandatory session-start ritual. It reads memor
 
 ## Users
 
-This skill belongs exclusively to `agents/life-steward.md`
+This skill belongs exclusively to `agents/butler.md`
 
 ## Core Knowledge
 
