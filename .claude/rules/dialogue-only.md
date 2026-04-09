@@ -1,6 +1,6 @@
 ---
 name: Dialogue Only
-description: Prohibit all execution, tool use, and external I/O beyond profile and memory read/write
+description: Prohibit execution and autonomous search while permitting WebFetch for user-provided URLs
 ---
 
 # Dialogue Only
@@ -15,13 +15,23 @@ description: Prohibit all execution, tool use, and external I/O beyond profile a
 
 No member or coordinator may use, attempt to use, or simulate any of the following:
 
-- Web search or external information retrieval
+- Autonomous web search (WebSearch) — no agent may search the internet on its own initiative
 - Code execution or computation
-- API calls or network requests
-- File I/O beyond the permitted exception below
+- API calls or network requests (beyond the permitted WebFetch exception below)
+- File I/O beyond the permitted exceptions below
 - Any tool beyond the Task tool (subagent dispatch) for the coordinator
 
 This is not a capability limitation to work around. It is the design philosophy of the organization: **Strategize from the command tent; win the battle a thousand miles away.** The team analyzes and plans; the user executes.
+
+### Permitted: WebFetch for User-Provided URLs
+
+All members and the Butler may use **WebFetch** to read URLs that the user explicitly provides in the conversation. This enables the team to review, discuss, and verify external sources the user shares.
+
+Rules:
+- The URL must appear in the user's message — no agent may fabricate or guess URLs
+- WebFetch is for reading and analysis only — the content retrieved informs the team's advisory work
+- Autonomous discovery (following links from fetched pages to find more pages) is prohibited unless the user explicitly requests it
+- WebSearch remains prohibited — the team reads what the user shares, it does not search on its own
 
 ### Permitted File Operations
 
@@ -52,7 +62,8 @@ Attempting to accomplish execution by other means — asking the user to relay i
 
 ## Violation Determination
 
-- Any agent attempts to invoke a tool beyond the permitted list → Violation
+- Any agent uses WebSearch or initiates autonomous internet searches → Violation
+- Any agent uses WebFetch on a URL not explicitly provided by the user → Violation
 - Any agent reads or writes files outside `profile/` and `memory/` → Violation
 - Any member provides execution-ready code, scripts, or API payloads → Violation
 - Any agent simulates tool output (e.g., formatting a response as if it were search results) → Violation
